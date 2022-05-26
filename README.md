@@ -1,34 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# dashGo
 
-## Getting Started
+## Conteúdo
 
-First, run the development server:
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Tecnologias](#hammer_and_wrench-tecnologias)
+- [Screenshots](#camera_flash-screenshots)
+- [Licença](#balance_scale-licença)
+- [Contato](#email-contato)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Sobre o projeto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Projeto desenvolvido durante o Ignite React da **Rocketseat**,<br />
+que mostra um Dashboard com gráfico e também um cadastro de usuários.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Rotas da aplicação
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+| Descrição da Rota | Caminho da Rota                 |
+| ----------------- | ------------------------------- |
+| Login             | http://localhost:3000           |
+| Dashboard         | http://localhost:3000/dashboard |
+| Usuários          | http://localhost:3000/users     |
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## :hammer_and_wrench: Tecnologias
 
-## Learn More
+- <ins>React</ins>
+- <ins>NextJs</ins>
+- <ins>Typescript</ins>
+- <ins>Chakra-UI</ins> para interface de telas
+- <ins>ApexCharts</ins> para exibir um gráfico no dashboard
+- <ins>React Hook</ins> Form para tratar entradas de formulário
+- <ins>Yup</ins> para validar as entradas
+- <ins>React Query</ins> para armazenar os dados da API em cache
+- <ins>MirageJs</ins>, uma fake API que não necessitar rodar o servidor em terminal
+- <ins>Faker</ins>, uma biblioteca que gera dados aleatórios
 
-To learn more about Next.js, take a look at the following resources:
+## :balance_scale: Licença
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Este projeto está licenciado sob a [licença MIT](LICENSE).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## :email: Contato
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+E-mail: [**jnrplay@hotmail.com**](mailto:jnrplay@hotmail.com)
