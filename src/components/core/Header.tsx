@@ -1,5 +1,9 @@
-import { Flex, Input, Text, Icon } from '@chakra-ui/react';
-import { RiSearchLine } from 'react-icons/ri';
+import { Flex, Input, Text, Icon, HStack, Box, Avatar } from '@chakra-ui/react';
+import {
+  RiSearchLine,
+  RiNotificationLine,
+  RiUserAddLine,
+} from 'react-icons/ri';
 
 const Header = () => (
   <Flex
@@ -41,6 +45,34 @@ const Header = () => (
       />
 
       <Icon as={RiSearchLine} />
+    </Flex>
+    <Flex align="center" ml="auto">
+      <HStack
+        gap="4"
+        mx="8"
+        pr="8"
+        py="1"
+        color="gray.300"
+        borderRightWidth={1}
+        borderColor="gray.700"
+      >
+        {' '}
+        <Icon as={RiNotificationLine} fontSize="20" />
+        <Icon as={RiUserAddLine} fontSize="20" />
+      </HStack>
+      <Flex align="center">
+        <Box mr="4" textAlign="right">
+          <Text>Diego Fernandes</Text>
+          <Text color="gray.300" fontSize="small">
+            devjusan@hotmail.com
+          </Text>
+        </Box>
+        <Avatar
+          size="md"
+          name="Junior Santos"
+          src="https://github.com/devjusan.png"
+        />
+      </Flex>
     </Flex>
   </Flex>
 );
