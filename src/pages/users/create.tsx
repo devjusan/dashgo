@@ -8,9 +8,9 @@ import {
   SimpleGrid,
   Stack,
 } from '@chakra-ui/react';
-import Header from '../../components/core/Header';
+import Header from '../../components/core/header';
 import Input from '../../components/ui/form/Input';
-import Sidebar from '../../components/ui/Sidebar';
+import Sidebar from '../../components/ui/sidebar';
 
 const CreateUser = () => (
   <Box>
