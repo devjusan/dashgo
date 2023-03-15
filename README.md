@@ -10,8 +10,7 @@
 
 ## Sobre o projeto
 
-Projeto desenvolvido durante o Ignite React da **Rocketseat**,<br />
-que mostra um Dashboard com gráfico e também um cadastro de usuários.
+Projeto que mostra um Dashboard com gráfico e também um cadastro de usuários.
 
 ### Rotas da aplicação
 
